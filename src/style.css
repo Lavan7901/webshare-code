@@ -1,0 +1,142 @@
+
+.App{
+    background-color: antiquewhite;
+    font-size: 16px;
+    font-size: "monserrat";
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    width: 50%;
+    text-align: right;
+    border-radius: 10px;
+    border: 1px solid#ccc;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+.container h2{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #61077c;
+    font-family: "sans-serif";
+    font-weight: bold;
+}
+.container input{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #524e4e;
+
+}
+button {
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: auto; 
+}
+.container label{
+    font-family: "geogeria";
+    font-weight: 700;
+    color: #000000;
+    padding: 10px;
+    font-size: 16px;
+    align-items: right;
+    justify-content: center;
+}
+.icons {
+    font-size: 16px;
+    font-family: "sans-serif";
+    position: fixed;
+    top: 30%;
+    width: 35%;
+    height:25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    text-align: center;  
+    flex-direction: row;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .items {
+    margin-top: 40px;
+    flex-direction: column;
+    padding: 10px 3%;
+    align-items: center;
+  }
+  .items p{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .items p:hover {
+    color: #007bff;
+  }
+  .field-items{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    font-size: 17px;
+    font-family: "monserrat";
+    margin: auto;
+    width: 90%;
+    align-items: right;
+    justify-content: center;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+  .card-content{
+    margin-top: 50px;
+  }
+  .card .postContent{
+    text-align: left;
+    justify-content: right;
+    align-items: left;
+  }
+
+@media (max-width: 600px){
+    .container{
+        width:100%;
+    }
+    
+}
+@media (max-width: 600px){
+    .icons{
+        width:100%;
+    }
+    
+}
+@media ( min-width: 600px) and (max-width: 1300px){
+    .icons{
+        width:60%;
+    }
+}
